@@ -3,7 +3,7 @@
 - ESP32-S3 development board
 - MPU6050 IMU
 - 2x SG90 micro servos
-- BPS.Space-inspired 3D-printed TVC gimbal
+- BPS.Space 3D-printed TVC gimbal
 - Breadboard
 - Jumper wires
 - Regulated 5 V servo power supply
