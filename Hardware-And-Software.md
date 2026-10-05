@@ -10,7 +10,7 @@
 - USB cable
 - Screws / servo hardware
 
-# Wiring
+## Wiring
 |MPU6050|ESP32-S3|
 | --- | --- |
 |VCC|3.3 V|
@@ -18,7 +18,7 @@
 |SDA|GPIO 8|
 |SCL|GPIO 9|
 
-# Servos
+## Servos
 |Device|Connection|
 | --- | --- |
 |Pitch servo signal|GPIO 4|
@@ -26,5 +26,9 @@
 |Servo power|External regulated 5 V|
 |Servo ground|Common ground|
 
-
-The ESP32, MPU6050, servo supply, and servos all share a common ground.
+# Software
+The ESP32 is programmed using the Arduino IDE.
+Libraries currently used:
+- Wire
+- MPU6050
+- ESP32Servo
